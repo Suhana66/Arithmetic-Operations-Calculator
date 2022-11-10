@@ -16,4 +16,4 @@ The program requires Python 3 to operate, but the program requires only built-in
 
 ## License
 
-The python script [calculate.py](https://github.com/Suhana66/terminal_calculator/blob/master/calculate.py) is under [MIT License](https://choosealicense.com/licenses/mit/).
+The python script [calculate.py](https://github.com/Suhana66/Terminal-calculator/blob/master/calculate.py) is under [MIT License](https://choosealicense.com/licenses/mit/).
