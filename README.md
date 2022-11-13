@@ -12,7 +12,7 @@ A python script to run a calculator in the terminal.
 
 ## Requirements
 
-The program requires Python 3 to operate, but the program requires only built-in modules to run. Therefore, if Python 3 is installed in the device, the program can be executed. Python 3 can be downloded from the following [link](https://www.python.org/downloads/).
+The program requires Python to operate, but the program requires only built-in modules to run. Therefore, if Python is installed in the device, the program can be executed. Python can be downloded from the following [link](https://www.python.org/downloads/).
 
 ## License
 
