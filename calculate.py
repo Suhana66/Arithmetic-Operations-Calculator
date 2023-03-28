@@ -79,7 +79,7 @@ def main() -> None:
                 else math.gcd(nums)) # If op == "g"
 
             # ask user if absolute (non-negative) value is required (single result)
-            if res < 0 and ques("absolute value"): res = math.fabs(res)
+            if res < 0 and ques("positive value"): res = math.fabs(res)
 
             # ask user if integer value is required (single result)
             res = math.floor(res) if ques("integral value") else float(res)
@@ -100,7 +100,7 @@ def main() -> None:
                 res.append(num)
 
             # ask user if absolute (non-negative) values are required (multiple results)
-            if any(num < 0 for num in res) and ques("absolute values"): res = map(math.fabs, res)
+            if any(num < 0 for num in res) and ques("positive values"): res = map(math.fabs, res)
 
             # ask user if integer values are required (multiple results)
             res = map(math.floor, res) if ques("integral values") else map(float, res)
@@ -118,13 +118,12 @@ def ques(ques) -> bool:
 
 # print a divider/header depending on parameter 'args'
 def line(*args, num = 100) -> None:
-    print()
-    if not args: print("*" * num)
+    if num or args: print()
+    if not args:
+        if num: print("*" * num)
     else:
-        word = " " + args[0] + " "
-        print(word.center(num,"*"))
+        print((" " + args[0] + " " if num else args[0]).center(num,"*").strip())
     print()
-
 
 if __name__ == "__main__":
     main()
