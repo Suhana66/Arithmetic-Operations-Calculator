@@ -22,20 +22,20 @@ The user can also specify additional options, such as requesting positive or int
 ## Key operations
 The following arithmetic operations are available in the program, each corresponding to a key that the user must input:
 
-a - addition
-s - subtraction
-m - multiplication
-d - division
-p - raise to the power of
-v - absolute value (positive value)
-ru - round up to the nearest integer
-rd - round down to the nearest integer
-n - natural logarithm
-2 - base-2 logarithm
-10 - base-10 logarithm
-l - least common multiple
-g - greatest common divisor
-q - quit the calculator
+* a - addition
+* s - subtraction
+* m - multiplication
+* d - division
+* p - raise to the power of
+* v - absolute value (positive value)
+* ru - round up to the nearest integer
+* rd - round down to the nearest integer
+* n - natural logarithm
+* 2 - base-2 logarithm
+* 10 - base-10 logarithm
+* l - least common multiple
+* g - greatest common divisor
+* q - quit the calculator
 
 ## Sample Usage
 ```
